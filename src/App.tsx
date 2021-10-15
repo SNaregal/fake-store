@@ -1,5 +1,5 @@
-import WelComePage from "./pages";
+import IndexPage from './pages'
 
 export default function App(){
-  return <WelComePage />
+  return <IndexPage />
 }
