@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import {NavBar,NavItem} from './style'
 
 
@@ -13,7 +14,7 @@ const LandingPage = (props: IPropsWelcomPage) => {
             <NavItem>Home</NavItem>
             <NavItem>Home</NavItem>
             <NavItem>Home</NavItem>
-            <NavItem>Home</NavItem>
+            <NavItem><Link to="/products">Products</Link></NavItem>
             <NavItem className="logout">Logout</NavItem>
         </NavBar>
     </>

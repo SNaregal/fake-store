@@ -6,7 +6,7 @@ const headers = {
 }
 const opts = {
     headers,
-    withCredentials:true
+    // withCredentials:true
 }
 export function getData(url: string,options = opts){
     return axios.get(url,options)
