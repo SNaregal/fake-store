@@ -10,6 +10,7 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
+import NavBar from '../navbar';
 import { ProductPageHeader, ProductPageWrapper,ProductCardWrapper, ProductsWrapper } from "./style";
 
 const Products: FC = (props: any) => {
@@ -53,9 +54,11 @@ const Products: FC = (props: any) => {
         </div>*/
         );
     }
-    return <ProductPageWrapper>
+    return <div>
+    <NavBar />
+    <ProductPageWrapper>
         <ProductPageHeader>
-            <h3>Products Page</h3>
+            <h3>Products</h3>
         </ProductPageHeader>
         <ProductsWrapper>
         <ProductCardWrapper>
@@ -70,6 +73,7 @@ const Products: FC = (props: any) => {
         </ProductCardWrapper>
         </ProductsWrapper>
     </ProductPageWrapper>
+    </div>
 }
 
 export default Products

@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const ProductPageWrapper = styled.div`
     height:100vh;
-    width: 100vw;
     background-color: white;
 `
 export const ProductPageHeader = styled.section`

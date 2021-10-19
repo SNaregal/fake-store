@@ -55,7 +55,7 @@ export const NavItem = styled.span`
             background-color: #04AA6D;
           }   }
 `
-export const NavBar = styled.div`ul {
+export const NavBars = styled.div`ul {
     list-style-type: none;
     margin: 0;
     padding: 0;

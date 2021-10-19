@@ -4,6 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals'; 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Products from './pages/products';
+import Cats from './pages/cats';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,9 @@ ReactDOM.render(
         </Route>
         <Route path="/products" exact>
           <Products />
+        </Route>
+        <Route path="/cats" exact>
+          <Cats />
         </Route>
       </Switch>
     </Router>
